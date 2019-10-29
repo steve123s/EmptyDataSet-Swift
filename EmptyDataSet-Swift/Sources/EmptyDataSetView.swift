@@ -16,7 +16,7 @@ public class EmptyDataSetView: UIView {
         contentView.translatesAutoresizingMaskIntoConstraints = false
         contentView.backgroundColor = UIColor.clear
         contentView.isUserInteractionEnabled = true
-        contentView.alpha = 0
+        contentView.alpha = 1
         return contentView
     }()
     
